@@ -37,6 +37,11 @@ Visit [x11docker](https://github.com/mviereck/x11docker)
 ### build the docker image
 
 ```{bash}
+docker build -t rcqls/ebspatcgal https://github.com/rcqls/docker-EBSpatCGAL.git
+```
+ou
+
+```{bash}
 git clone https://githuh.com/rcqls/docker-EBSpatCGAL
 docker build -t rcqls/ebspatcgal .
 ```
