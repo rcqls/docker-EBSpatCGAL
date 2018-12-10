@@ -30,7 +30,7 @@ pkill socat
 
 ## Windows
 
-Visit x11docker
+Visit [x11docker](https://github.com/mviereck/x11docker)
 
 ## manage docker image and container
 
@@ -44,5 +44,5 @@ docker build -t rcqls/ebspatcgal .
 ### create a container
 
 ```{bash}
-docker run --rm  -e DISPLAY=$(ipconfig getifaddr en0):0 -ti rcqls/ebspatcgal
+docker run --rm  -e DISPLAY=$(ipconfig getifaddr en0)$(ipconfig getifaddr en2):0 -ti rcqls/ebspatcgal
 ```
